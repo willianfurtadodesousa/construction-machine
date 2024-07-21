@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tavares Locações</title>
+    <!--Favicom-->
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,15 +23,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <!-- Custom JS -->
-    <script src="/js/script.js" defer></script>
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/778832e2c6.js" crossorigin="anonymous"></script>
     <!-- Parallax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js" crossorigin="anonymous"
-        referrerpolicy="no-referrer" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <!-- Progress bar -->
-    <script src="/js/progressbar.min.js" defer></script>
+    <script src="/js/progressbar.min.js"></script>
+
 </head>
 <body>
     <!-- Navegação -->
@@ -167,7 +168,7 @@
                 </div>
              </div>
              <!-- Dados da empresa -->
-              <div id="data-area">
+            <div id="data-area">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3 circle-box">
@@ -188,7 +189,7 @@
                         </div>
                     </div>
                 </div>
-              </div>
+            </div>
               <!-- Time da empresa -->
             <div id="team-area">
                 <div class="container">
@@ -250,7 +251,110 @@
                     </div>
                 </div>
              </div>
+             <!-- Portifolio -->
+             <div id="portifolio-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="main-title">Conheça nossos projetos</h3>
+                        </div>
+                        <div class="col-md-12" id="filter-btn-box">
+                            <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+                            <button class="main-btn filter-btn" id="dev-btn">Desenvolvimento</button>
+                            <button class="main-btn filter-btn" id="dsg-btn">Design</button>
+                            <button class="main-btn filter-btn" id="seo-btn">SEO</button>
+                        </div>
+                        <div class="col-md-4 project-box dev">
+                            <img src="/img/proj1.jpg" class="img-fluid" alt="Projeto 1">
+                        </div>
+                        <div class="col-md-4 project-box dsg">
+                            <img src="/img/proj2.jpg" class="img-fluid" alt="Projeto 2">
+                        </div>
+                        <div class="col-md-4 project-box seo">
+                            <img src="/img/proj3.jpg" class="img-fluid" alt="Projeto 3">
+                        </div>
+                        <div class="col-md-4 project-box dev">
+                            <img src="/img/proj4.jpg" class="img-fluid" alt="Projeto 4">
+                        </div>
+                        <div class="col-md-4 project-box dsg">
+                            <img src="/img/proj5.jpg" class="img-fluid" alt="Projeto 5">
+                        </div>
+                        <div class="col-md-4 project-box seo">
+                            <img src="/img/proj6.jpg" class="img-fluid" alt="Projeto 6">
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <!-- Newsletter -->
+              <div id="news-area">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <h3 class="main-title">Fique por dentro das novidade</h3>
+                        </div>
+                        <p>Assine nossa lista de e-mails, e receba nossos conteúdos sobre promoções de equipamentos.</p>
+                        <form action="">
+                            <input type="email" class="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail">
+                            <input type="submit" id="news-btn" value="Inscrever">
+                        </form>
+                    </div>
+              </div>
+              <!-- Call to action -->
+               <div id="call-area">
+                    <div class="container">
+                        <div class="row">
+                            <p>Deseja fazer um orçamento sem compromisso</p>
+                            <button class="main-btn" id="call-btn">Orçar</button>
+                        </div>
+                    </div>
+               </div>
         </div>
-    </main> 
+    </main>
+    <!-- Rodapé-->
+     <footer>
+        <div id="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="main-title">Entre em contato conosco</h3>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-phone"></i>
+                        <p><span class="contact-title">Ligue para:</span> (00)0000-0000</p>
+                        <p><span class="contact-title">Horários:</span> 08:00 - 18:00</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-envelope"></i>
+                        <p><span class="contact-title">Envie um e-mail:</span> contato@tavareslocações.com.br</p>
+                    </div>
+                    <div class="col-md-4 contact-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p><span class="contact-title">Venha nos visitar:</span> Rua Lorem ipsum - 2024</p>
+                    </div>
+                    <div class="col-md-6" id="msg-box">
+                        <p>Ou nos deixe uma mensagem:</p>
+                    </div>
+                    <div class="col-md-6" id="contact-form">
+                        <form action="">
+                            <input type="email" class="form-control" placeholder="E-mail" name="email">
+                            <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                            <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                            <input type="submit" class="main-btn" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copy-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Desenvolvido por <a href="https://www.instagram.com/tavares.locacoes_/" target="_blank">Tavares Locações</a> &copy; 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </footer>
+    <!-- Custom JS -->
+    <script src="/js/script.js"></script>
 </body>
 </html>
