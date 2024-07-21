@@ -1,36 +1,36 @@
-# Projeto de Landing Page para Empresa de Locações de Máquinas e Materiais para Construção
+# Landing Page Project for Construction Machinery and Materials Rental Company
 
-## Descrição do Projeto
+## Project description
 
-Este projeto consiste no desenvolvimento de uma landing page para uma empresa especializada na locação de máquinas e materiais para construção. A página tem como objetivo principal apresentar os serviços oferecidos pela empresa, destacando a variedade de equipamentos disponíveis, as vantagens da locação, e facilitando o contato dos clientes interessados.
+This project consists of developing a landing page for a company specializing in the rental of construction machinery and materials. The main objective of the page is to present the services offered by the company, highlighting the variety of equipment available, the advantages of leasing, and facilitating contact with interested customers.
 
-## Funcionalidades
+## Functionalities
 
-* **Design Responsivo:** A landing page é totalmente responsiva, garantindo uma experiência de navegação agradável tanto em dispositivos móveis quanto em desktops.
+* **Responsive Design:** The landing page is fully responsive, ensuring a pleasant browsing experience on both mobile devices and desktops.
 
-* **Apresentação dos Serviços:** Seção dedicada para a descrição detalhada dos tipos de máquinas e materiais disponíveis para locação, com imagens ilustrativas e especificações técnicas.
+* **Presentation of Services:** Section dedicated to a detailed description of the types of machines and materials available for rental, with illustrative images and technical specifications.
  
-* **Formulário de Contato:** Formulário simples e intuitivo para que os visitantes possam solicitar cotações ou obter mais informações sobre os serviços.
+* **Contact Form:** Simple and intuitive form for visitors to request quotes or obtain more information about the services.
 
-* **Informações de Contato:** Dados de contato da empresa, incluindo telefone, e-mail e endereço, além de um mapa interativo para facilitar a localização.
+* **Contact Information:** Company contact information, including telephone, email and address, as well as an interactive map to facilitate location.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-* **HTML5:** Estruturação semântica do conteúdo.
+* **HTML5:** Semantic structuring of content.
 
-* **CSS3:** Estilização visual e layout responsivo.
+* **CSS3:** Visual styling and responsive layout.
   
-* **JavaScript:** Interatividade e funcionalidades dinâmicas.
+* **JavaScript:** Interactivity and dynamic features.
 
-* **Bootstrap:** Framework CSS para acelerar o desenvolvimento responsivo.
+* **Bootstrap:** CSS framework to speed up responsive development.
   
-* **Font Awesome:** Ícones vetoriais para melhorar a usabilidade e estética da página.
+* **Font Awesome:** Vector icons to improve page usability and aesthetics.
 
-## Estrutura do Projeto
-* **index.html:** Arquivo principal contendo a estrutura da landing page.
+## Project Structure
+* **index.html:** Main file containing the landing page structure.
 
-* **styles.css:** Arquivo de estilos personalizado.
+* **styles.css:** Custom styles file.
 
-* **scripts.js:** Arquivo de scripts JavaScript para funcionalidades dinâmicas.
+* **scripts.js:** JavaScript script file for dynamic features.
 
-* **img/:** Pasta contendo imagens e outros recursos estáticos.
+* **img/:** Folder containing images and other static resources.
