@@ -28,11 +28,14 @@ header, .navbar {
 
 #logo {
     width: 60px;
+    margin-left: 1px;
 }
 
 .navbar-brand {
+    position: relative;
     padding: 0;
     color: #000000;
+    left: 40rem;
 }
 
 .navbar-brand:hover{
