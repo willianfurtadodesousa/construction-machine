@@ -26,11 +26,11 @@ This project consists of developing a landing page for a company specializing in
   
 * **Font Awesome:** Vector icons to improve page usability and aesthetics.
 
-## Project Structure
+<!--## Project Structure
 * **index.html:** Main file containing the landing page structure.
 
 * **styles.css:** Custom styles file.
 
 * **scripts.js:** JavaScript script file for dynamic features.
 
-* **img/:** Folder containing images and other static resources.
+* **img/:** Folder containing images and other static resources.-->
