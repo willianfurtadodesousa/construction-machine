@@ -241,6 +241,9 @@ header, .navbar {
 
 #data-area {
     background-color: #535c6b;
+    background-color: #535c6b;
+    border-radius: 30px;
+    background-color: #535c6b;  
     border-radius: 30px;
 }
 
@@ -572,7 +575,7 @@ a#apply-btn.main-btn:hover {
     /* Slider */
     #mainSlider .carousel-inner, #mainSlider .carousel-item {
         height: auto;
-        margin-bottom: 50px;
+        margin-bottom: 35px;
     }
 
 
