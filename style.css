@@ -28,14 +28,11 @@ header, .navbar {
 
 #logo {
     width: 60px;
-    margin-left: 1px;
 }
 
 .navbar-brand {
-    position: relative;
     padding: 0;
     color: #000000;
-    left: 40rem;
 }
 
 .navbar-brand:hover{
@@ -190,7 +187,7 @@ header, .navbar {
 /* Serviços da empresa */
 
 .main-title-services {
-    color: #0088d6;
+    color: #3a404a;
     margin: 0 0 65px 0;
     font-size: 40px;
     text-align: center;
@@ -596,11 +593,25 @@ a#apply-btn.main-btn:hover {
 
     /* About */
     #about-area img {
-        margin-top: 100px;
+        margin-top: 55px;
+    }
+
+    .main-title {
+        margin: 25px;
+    }
+
+    .main-title-services {
+        margin-bottom: 90px;
+        margin-top: 25px;
     }
 
     /* Data */
-        .circle-box div {
+
+    #data-area {
+        border-radius: 0%;
+    }
+
+    .circle-box div {
         padding: 0 10px;
     }
 
@@ -653,8 +664,26 @@ a#apply-btn.main-btn:hover {
 
 
     /* slider */
+
+    .container-fluid {
+        padding: 0;
+    }
+
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 30vh;
+    position: relative;
+    bottom: -38px;
+    }
+
     #mainSlider {
         margin-top: 0px;
+    }
+
+    .main-btn-c {
+        padding: 0;
+        width: 90px;
+        height: 30px;
+        font-size: 8px;
     }
 
 
@@ -665,7 +694,9 @@ a#apply-btn.main-btn:hover {
 
     #mainSlider .carousel-caption h2 {
         font-size: 18px;
-        margin-bottom: 40px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: initial;
     }
 
 
@@ -688,6 +719,10 @@ a#apply-btn.main-btn:hover {
     #about-area img {
         margin-top: 0;
         margin-bottom: 25px;
+    }
+
+    .main-title-services {
+        font-size: 25px;
     }
 
 
@@ -726,6 +761,22 @@ a#apply-btn.main-btn:hover {
     
     
     /* News */
+    .main-title-team {
+        font-size: 25px;
+    }
+    
+    .main-title-projects {
+        font-size: 25px;
+    }
+    
+    .main-title-novdades {
+        font-size: 25px;
+    }
+
+    #call-area #call-btn {
+        height: 40px;
+    }
+
     #news-area .main-title {
         font-size: 24px;
     }
