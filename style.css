@@ -40,7 +40,7 @@ header, .navbar {
 }
 
 #navbar-links a {
-    color: #000000;
+    color: #535c6b;
 }
 
 #navbar-links a:hover {
@@ -240,8 +240,8 @@ header, .navbar {
     background-color: #535c6b;
     background-color: #535c6b;
     border-radius: 30px;
-    background-color: #535c6b;  
-    border-radius: 30px;
+    background-color: #535c6b;
+    border-radius: 5px;
 }
 
 #data-area p {
@@ -254,7 +254,7 @@ header, .navbar {
 /* Time */
 
 .main-title-team {
-    color: #0088d6;
+    color: #535c6b;
     margin: 0 0 65px 0;
     font-size: 40px;
     text-align: center;
@@ -285,7 +285,7 @@ header, .navbar {
 }
 
 #company-img {
-    background-image: url('../img/empresa.jpg');
+    background-image: url('assets/img/empresa.jpg');
     background-size: cover;
     height: 100%;
 }
@@ -331,7 +331,7 @@ a#apply-btn.main-btn:hover {
 /* Portifolio */
 
 .main-title-projects {
-    color: #0088d6;
+    color: #535c6b;
     margin: 0 0 65px 0;
     font-size: 40px;
     text-align: center;
