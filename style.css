@@ -285,7 +285,7 @@ header, .navbar {
 }
 
 #company-img {
-    background-image: url('../img/empresa.jpg');
+    background-image: url('assets/img/empresa.jpg');
     background-size: cover;
     height: 100%;
 }
